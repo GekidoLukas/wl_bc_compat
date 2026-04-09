@@ -1,0 +1,50 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "GPL-3.0"
+
+[[mods]]
+modId = "wl_bc_compat"
+version = "${version}"
+displayName = "Weapon Leveling & Better Combat Compat"
+authors = "GekidoLukas"
+displayURL="https://www.gekidolukas.com"
+description = '''
+This Mod adds Compatibility between Better Combat and Weapon Leveling
+'''
+logoFile = "banner.png"
+
+[[dependencies.wl_bc_compat]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.wl_bc_compat]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.wl_bc_compat]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.wl_bc_compat]]
+modId = "weaponleveling"
+mandatory = true
+versionRange = "[3.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.wl_bc_compat]]
+modId = "bettercombat"
+mandatory = true
+versionRange = "[1.7.2,)"
+ordering = "AFTER"
+side = "BOTH"
+[modproperties.wl_bc_compat]
+catalogueImageIcon = "icon.png"

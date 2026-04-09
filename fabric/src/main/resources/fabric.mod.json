@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "wl_bc_compat",
+  "version": "${version}",
+  "name": "Weapon Leveling & Better Combat Compat",
+  "description": "This Mod adds Compatibility between Better Combat and Weapon Leveling",
+  "authors": [
+    "GekidoLukas"
+  ],
+  "contact": {
+    "homepage": "https://www.gekidolukas.com"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/wl_bc_compat/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.gekidolukas.wl_bc_compat.fabric.WLBCCompatModFabric"
+    ],
+    "client": [
+      "net.gekidolukas.wl_bc_compat.fabric.client.WLBCCompatModFabricClient"
+    ]
+  },
+  "mixins": [
+    "wl_bc_compat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*",
+    "weaponleveling": ">=3.0.0",
+    "bettercombat": ">=1.7.2"
+  },
+  "custom": {
+    "catalogue": {
+      "banner": "assets/wl_bc_compat/banner.png"
+    }
+  }
+
+}
