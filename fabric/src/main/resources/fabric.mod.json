@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "wl_bc_compat",
   "version": "${version}",
-  "name": "Weapon Leveling & Better Combat Compat",
+  "name": "Weapon Leveling x Better Combat Compat",
   "description": "This Mod adds Compatibility between Better Combat and Weapon Leveling",
   "authors": [
     "GekidoLukas"

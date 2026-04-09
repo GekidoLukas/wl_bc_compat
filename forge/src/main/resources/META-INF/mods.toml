@@ -6,7 +6,7 @@ license = "GPL-3.0"
 [[mods]]
 modId = "wl_bc_compat"
 version = "${version}"
-displayName = "Weapon Leveling & Better Combat Compat"
+displayName = "Weapon Leveling x Better Combat Compat"
 authors = "GekidoLukas"
 displayURL="https://www.gekidolukas.com"
 description = '''
